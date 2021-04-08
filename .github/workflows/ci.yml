@@ -28,4 +28,4 @@ jobs:
               uses: "ramsey/composer-install@v1"
 
             - name: "Run benchmarks with PHPBench"
-              run: bin/phpbench run --report=env --progress=dots
+              run: vendor/bin/phpbench run --report=env --progress=dots
